@@ -30,7 +30,7 @@ window.addEventListener("keyup", function (e) {
     
 	setTimeout(() => {
 		if (isTouching(avatar, coin)) moveCoin();
-	}, 1500);
+	}, 1000);
 
 });
 
