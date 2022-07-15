@@ -27,8 +27,10 @@ window.addEventListener("keyup", function (e) {
 		moveHorizontal(avatar, -50);
 		avatar.style.transform = "scale(-1, 1)";
 	}
-
-	if (isTouching(avatar, coin)) moveCoin();
+    
+	setTimeout(() => {
+		if (isTouching(avatar, coin)) moveCoin();
+	}, 1500);
 
 });
 
